@@ -1,0 +1,41 @@
+# LPIC_101_CentOS8
+
+
+LPIC_101 with CentOS-8
+
+
+- Pseudo file system, a fake file system i.e. does not exist of physical hard drive, ONLY exist in RAM while system is running
+
+- Two primary locations for pseudo file system in Linux:
+    
+    /proc - contains info about the processes are running on system listed by PID
+
+
+    /sys - contains info about the system's hardware and kernel modules
+
+- Go to /proc and list files, open some files
+    cd /proc
+
+    ls
+
+    cat cpuinfo
+    
+    cat cmd file
+
+- Go to /sys list files, open some files
+    cd  /sys
+
+    ls
+
+    ls fs
+
+    ls fs/xfs
+
+    ls fs/xfs xvda1
+
+    ls fs/xfs xvda1/stats
+
+     
+
+- Everything on Linux was treated as files including Hard disk, CD/DVD-Drive,...
+
