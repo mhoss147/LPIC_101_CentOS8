@@ -1,8 +1,4 @@
-<html>
-# LPIC_101_CentOS8
-
-
-LPIC_101 with CentOS-8
+# Pseudo file system
 
 
 - Pseudo file system, a fake file system i.e. does not exist of physical hard drive, ONLY exist in RAM while system is running
@@ -40,4 +36,3 @@ LPIC_101 with CentOS-8
 
 - Everything on Linux was treated as files including Hard disk, CD/DVD-Drive,...
 
-</html>

@@ -1,0 +1,24 @@
+# Linux kernel utilities
+
+
+- Commands:
+
+    uname, will show the kernel name
+
+    uname -m, will show the how many bits
+
+    uname -rm
+
+    uname -a
+
+    lsmod, displays all current modules loaded
+
+
+    modinfo moduleNameFromTheLsmodList, displays info about specific karnel modules
+
+    modprobe -r moduleNameFromTheLsmodList, will remove the module
+
+    lsmod, check if the module is removed
+
+    modprobe moduleNameFromTheLsmodList, will reLoad the module
+
