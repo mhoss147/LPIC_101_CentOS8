@@ -11,6 +11,7 @@
 
     uname -a
 
+
     lsmod, displays all current modules loaded
 
 

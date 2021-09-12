@@ -1,0 +1,34 @@
+# HardwareInvestigation
+
+
+- ls /dev, /dev contains all information about all the hardware connectd to system
+
+From the list:
+
+- ls /dev/cpu, will show cpu information
+
+- ls /dev/net, will show network information
+ 
+- ls /dev/mem, will show memory information
+
+... explores others as well
+
+
+
+- lspci, to display PCI devices
+
+- lspci -k, to display kernel drivers handling each device
+
+- lspci -h, for help with this command
+
+
+
+- lscpu, to display cpu information
+
+- lsmem, to display memory information
+
+
+
+
+
+
