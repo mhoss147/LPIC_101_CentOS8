@@ -1,0 +1,8 @@
+# Boot Sequence
+
+
+- dmesg, the traditional utility used for viewing the kernel ring buffer
+
+- journalctl -k, a systemd utility to view kernel ring buffer
+
+
